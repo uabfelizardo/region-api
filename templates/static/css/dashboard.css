@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.sidebar-heading {
+    padding: 0 15px;
+}
+
+.nav-link {
+    padding: 10px 15px;
+}
+
+.nav-link.active {
+    background-color: #e9ecef;
+}
+
+main {
+    padding: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <h4 class="sidebar-heading">Dashboard</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/areas" target="_parent">Areas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/locations" target="_parent">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/persons" target="_parent">Persons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/categories" target="_parent">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/fields" target="_parent">Fields</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/countries" target="_parent">Countries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/districts" target="_parent">Districts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/district_advisory_board_lay" target="_parent">District Advisory Board Lay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/district_advisory_board_ministerial" target="_parent">District Advisory Board Ministerial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/elders_deacons" target="_parent">Elders & Deacons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/locals" target="_parent">Locals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/missionaries" target="_parent">Missionaries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/missionaries_adicional_information" target="_parent">Missionaries Additional Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/missionary_home_assignment_details" target="_parent">Missionary Home Assignment Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/regions" target="_parent">Regions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/regional_advisory_council" target="_parent">Regional Advisory Council</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/regional_advisory_council_member_at_large" target="_parent">Regional Advisory Council Member at Large</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/region_and_field_contact_information" target="_parent">Region and Field Contact Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:5000/api/schools" target="_parent">Schools</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div id="content-pane">
+                    <!-- The content will be loaded here -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
